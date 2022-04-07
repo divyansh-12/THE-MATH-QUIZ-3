@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Math Quiz Game!</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="game_login.js"></script>
+        <script src="quiz_game_page.js"></script>
+    </head>
+    <body background="background.jpg">
+        <p id="player1_name" style="text-align: left;color: azure;">------</p>
+        <span id="player1_score" style="text-align: left;color: azure;">------</span>
+        <br>
+        <p id="player2_name" style="text-align: left;color: azure;">------</p>
+        <span id="player2_score" style="text-align: left;color: azure;">------</span>
+        <center>
+            <div class="container">
+                <h2 style="color: azure;">The Math Quiz Game!</h2>
+            </div>
+            <div>
+                <h3 id="player1-name"></h3>
+                <br>
+                <br>
+                <h3 id="player2-name"></h3>
+            </div>
+            <div id="output">
+                <h2 id="question"></h2>
+                <br>
+                <br>
+                <input id="answer" type="text" placeholder="type the answer here">
+                <br>
+                <br>
+                <button id="check" class="btn btn-primary btn-lg">Check</button>
+            </div>
+            <h4 style="color: azure;">Number 1</h4>
+            <br>
+            <input id="textInput_num1" type="text" placeholder="Number 1">
+            <h4 style="color: azure;">Number 2</h4>
+            <br>
+            <input id="textInput_num2" type="text" placeholder="Number 2">
+            <br>
+            <br>
+            <br>
+            <button id="send" class="btn btn-success btn-lg btn-block" onclick="send()">send</button>
+        </center>
+    </body>
+</html>

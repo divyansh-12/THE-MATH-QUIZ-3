@@ -1,0 +1,52 @@
+body{
+    text-align: center;
+}
+
+#player-1_name_input{
+    width: 500px;
+    height: 50px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#player-2_name_input{
+    width: 500px;
+    height: 50px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#loginButton{
+    width: 200px;
+    height: max-content;
+    border-radius: 20px;
+}
+
+#output{
+    background-color: azure;
+    border-radius: 10px;
+    border-top: 10px solid #AA4465;
+    padding: 10px;
+    float: none;
+    text-align: left;
+    width: 1000px;
+}
+
+#answer{
+    width: 500px;
+    border-radius: 10px;
+    border-color: aqua;
+    text-align: left;
+}
+
+#textInput_num1{
+    width: 1000px;
+    border-radius: 10px;
+    border-color: azure;
+}
+
+#textInput_num2{
+    width: 1000px;
+    border-radius: 10px;
+    border-color: azure;
+}
